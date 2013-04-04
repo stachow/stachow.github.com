@@ -20,7 +20,7 @@
             <ul class="unstyled repo-list">
                 <li ng-repeat="repo in repos">
 
-                    <h2>{{repo.name}}</h2>
+                    <h2><a href="{{repo.html_url}}">{{repo.name}}</a></h2>
                     <p>
                         {{repo.description}} 
                         <br />
