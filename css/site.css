@@ -16,7 +16,7 @@ body > div {
     margin-top: 50px;
 }
 
-h2 > a {
+h1 > a, h2 > a {
     text-decoration: none;
     color: #34495e;
 }
